@@ -15,7 +15,7 @@ The `train_bishop_cv.py` script performs 3-fold stratified cross-validation on d
 
 ### Data Files
 
-Download the required data files from the Google Drive link:
+Download the required data files from the Google Drive link (needs authorization from data provider:
 - **Data Link**: https://drive.google.com/file/d/1Q5RhMkibuW0QIx-ywa4eMVKCrfPVmpwp/view?usp=drive_link
 
 The dataset should include:
