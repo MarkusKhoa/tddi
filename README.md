@@ -69,9 +69,9 @@ Download the data files from the Google Drive link provided above and extract th
 Edit `train_bishop_cv.py` and update the following paths in the `main()` function (around lines 196-198):
 
 ```python
-train_path = "/path/to/your/data/train_extracted.csv"
-valid_path = "/path/to/your/data/validation_extracted.csv"
-features_file = "/path/to/your/data/list_of_all_features_ascending_order.txt"
+train_path = "data_splits/train_extracted.csv"
+valid_path = "data_splits/validation_extracted.csv"
+features_file = "list_of_all_features_ascending_order.txt"
 ```
 
 **Example for Windows:**
