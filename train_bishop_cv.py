@@ -303,7 +303,8 @@ def main():
         ).to(device)
         
         # Get bins for numerical features (required by BiSHop)
-        X_num_tensor = torch.FloatTensor(X_fold_train.values)
+        # Move tensor to device before calling get_bins to ensure quantiles are on correct device
+        X_num_tensor = torch.FloatTensor(X_fold_train.values).to(device)
         model.get_bins(X_num_tensor)
         
         # Train model
